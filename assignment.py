@@ -23,10 +23,10 @@
 #         print(m)
 
 # Question 3: Create your function module for the following two questions and import your library to execute functions: 
-# import module
+import module
 
-# module.function1()
-# module.function2()
+module.function1()
+module.function2()
 
 # Question 4: Use Object-Oriented concepts
 
