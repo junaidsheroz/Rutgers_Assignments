@@ -10,17 +10,17 @@
 #         print(l)
 
 # Question 2: Create 2D array and get following output
-# a=(['A','B'],['F','G','H'])
-# b=(['C','D','E'],['I','J'],['K'])
-# print("Length of Array-a is",len(a))
-# print("Length of Array-b is",len(b))
-# for i,j in zip(a,b):
-#     for k in i:
-#         print(k)
-#     for l in j:
-#         print(l)
-#     for m in b[2]:
-#         print(m)
+a=(['A','B'],['F','G','H'])
+b=(['C','D','E'],['I','J'],['K'])
+print("Length of Array-a is",len(a))
+print("Length of Array-b is",len(b))
+for i,j in zip(a,b):
+    for k in i:
+        print(k)
+    for l in j:
+        print(l)
+    for m in b[2]:
+        print(m)
 
 # Question 3: Create your function module for the following two questions and import your library to execute functions: 
 import module
