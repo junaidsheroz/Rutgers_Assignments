@@ -1,13 +1,13 @@
 # Question 1: Create 2 D array and get following output
-# a=(['A','B'],['F','G','H'])
-# b=(['C','D','E'],['I','J'])
-# print("Length of Array-a is",len(a))
-# print("Length of Array-b is",len(b))
-# for i,j in zip(a,b):
-#     for k in i:
-#         print(k)
-#     for l in j:
-#         print(l)
+a=(['A','B'],['F','G','H'])
+b=(['C','D','E'],['I','J'])
+print("Length of Array-a is",len(a))
+print("Length of Array-b is",len(b))
+for i,j in zip(a,b):
+    for k in i:
+        print(k)
+    for l in j:
+        print(l)
 
 # Question 2: Create 2D array and get following output
 a=(['A','B'],['F','G','H'])
