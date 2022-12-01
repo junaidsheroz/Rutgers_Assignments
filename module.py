@@ -1,9 +1,9 @@
-def function1():
-    while True:
-        n1 = int(input('Enter number 1: '))
-        n2 = int(input('Enter number 2: '))
-        if n1 == n2:
-            break    
+# def function1():
+#     while True:
+#         n1 = int(input('Enter number 1: '))
+#         n2 = int(input('Enter number 2: '))
+#         if n1 == n2:
+#             break    
 
 # Ask the User to enter five numbers, store those numbers in ascending order in a single Dimensional array, and print that array
 def function2():
