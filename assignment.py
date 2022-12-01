@@ -93,3 +93,6 @@ class final(Demographics, Grade):
         print("English: ", self.Eng)
         print('Fees: ',self.fees)
         print("Grades: ", self.total)
+# callable function
+student1 = final(1, 20,'Male', 90, 80, 70)
+student1.transcript()
