@@ -68,8 +68,8 @@ num = int(input("Enter a number: "))
 print('Square root -',num**0.5)
 
 # Ask the user to enter a number and Print power of the number (Power of 3)
-num = int(input("Enter a number: "))
-print('Power of 3 -',num**3)
+# num = int(input("Enter a number: "))
+# print('Power of 3 -',num**3)
 
 # Ask the user to enter a number Print exponential  of that number
 # num = int(input("Enter a number: "))
