@@ -11,20 +11,23 @@
 #     for l in i[::-1]:
 #         print(l)
 
-#  Ask total of 5 numbers from the user and store them in the array.
+# Question 2
 
-array = []
-for i in range(5):
-    array.append(int(input("Enter a number: ")))
+# array = []
+# for i in range(5):
+#     array.append(int(input("Enter a number: ")))
 
 
-print("Highest number is: ", max(array))
-print("Lowest number is: ", min(array))
+# print("Highest number is: ", max(array))
+# print("Lowest number is: ", min(array))
 
-print('Initial Array - ', array)
-for i in array:
-    if i==max(array):
-        array.remove(i)
-    elif i==min(array):
-        array.remove(i)
-print('After Deleting - ', array)
+# print('Initial Array - ', array)
+# for i in array:
+#     if i==max(array):
+#         array.remove(i)
+#     elif i==min(array):
+#         array.remove(i)
+# print('After Deleting - ', array)
+
+# Question 3:
+
