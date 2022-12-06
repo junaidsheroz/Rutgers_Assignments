@@ -73,7 +73,7 @@ class Designation:
 
 class final(Designation,Emp):
     def __init__(self,*args,**kwargs):
-        message()
+        self.message()
         super(final,self).__init__(*args,**kwargs)
         print('Child Class')
 
