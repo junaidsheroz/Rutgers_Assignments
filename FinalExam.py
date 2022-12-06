@@ -31,25 +31,25 @@
 
 # Question 3:
 
-class Emp:
-    def __init__(self,name,sal,comm, *args,**kwargs):
-        super(Emp,self).__init__(*args,**kwargs)
-        Total_Sal = sal + comm
-        print(name)
-        print(Total_Sal)
+# class Emp:
+#     def __init__(self,name,sal,comm, *args,**kwargs):
+#         super(Emp,self).__init__(*args,**kwargs)
+#         Total_Sal = sal + comm
+#         print(name)
+#         print(Total_Sal)
         
-    def message(self):
-        print("Welcome")
+#     def message(self):
+#         print("Welcome")
 
-class Designation:
-    def __init__(self,des, *args,**kwargs):
-        super(Designation,self).__init__(*args,**kwargs)
-        print(des)
+# class Designation:
+#     def __init__(self,des, *args,**kwargs):
+#         super(Designation,self).__init__(*args,**kwargs)
+#         print(des)
 
-class final(Designation,Emp):
-    def __init__(self,*args,**kwargs):
-        message()
-        super(final,self).__init__(*args,**kwargs)
-        print('Child Class')
+# class final(Designation,Emp):
+#     def __init__(self,*args,**kwargs):
+#         message()
+#         super(final,self).__init__(*args,**kwargs)
+#         print('Child Class')
 
-x = final(name='AA',sal = 3000,comm=40,des= 'US')
+# x = final(name='AA',sal = 3000,comm=40,des= 'US')
