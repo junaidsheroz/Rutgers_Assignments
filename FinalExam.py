@@ -58,14 +58,14 @@
 # Question 4:
 import datetime
 # Print that today’s date in mm/dd/yy format
-print(datetime.date.today().strftime('%m/%d/%y'))
+# print(datetime.date.today().strftime('%m/%d/%y'))
 
 # A print small version of a day (based on today’s date)
-print(datetime.date.today().strftime('%a'))
+# print(datetime.date.today().strftime('%a'))
 
 # Ask the user to enter a number and Print square root the number
-num = int(input("Enter a number: "))
-print('Square root -',num**0.5)
+# num = int(input("Enter a number: "))
+# print('Square root -',num**0.5)
 
 # Ask the user to enter a number and Print power of the number (Power of 3)
 # num = int(input("Enter a number: "))
