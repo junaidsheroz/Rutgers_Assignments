@@ -23,7 +23,8 @@ print("Lowest number is: ", min(array))
 
 print('Initial Array - ', array)
 for i in array:
-    if i==max(array) and i==min(array):
+    if i==max(array):
         array.remove(i)
-
+    elif i==min(array):
+        array.remove(i)
 print('After Deleting - ', array)
