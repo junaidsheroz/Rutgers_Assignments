@@ -80,3 +80,11 @@ import datetime
 # print("Exponential Value is: ", base ** exponent)
 
 
+# Question 5:
+a = (['A','B'],['E','F','G'])
+b = (['C','D'],['H','I','K'])
+
+for i,j in zip(a,b):
+    for h,k in zip(i,j):
+        print(h)
+        print(k)
