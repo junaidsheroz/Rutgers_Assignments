@@ -31,3 +31,23 @@
 
 # Question 3:
 
+def message():
+    print("Welcome")
+
+class Emp:
+    def __init__(self,name,sal,comm, *args,**kwargs):
+        super(Emp,self).__init__(*args,**kwargs)
+        message(self)
+        Total_Sal = sal + comm
+        print(name)
+        print(Total_Sal)
+    
+class Designation:
+    def __init__(self,des, *args,**kwargs):
+        super(Designation,self).__init__(*args,**kwargs)
+        print(des)
+
+class final(Emp,Designation):
+    def __init__(self,*args,**kwargs):
+        super(final,self).__init__(*args,**kwargs)
+        print('Child Class')
