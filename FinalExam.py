@@ -72,11 +72,11 @@ num = int(input("Enter a number: "))
 print('Power of 3 -',num**3)
 
 # Ask the user to enter a number Print exponential  of that number
-num = int(input("Enter a number: "))
-print('Exponential -',num**2.71828)
+# num = int(input("Enter a number: "))
+# print('Exponential -',num**2.71828)
 
-base = int(input("Enter a base: "))
-exponent = int(input("Enter a exponent: "))
-print("Exponential Value is: ", base ** exponent)
+# base = int(input("Enter a base: "))
+# exponent = int(input("Enter a exponent: "))
+# print("Exponential Value is: ", base ** exponent)
 
 
