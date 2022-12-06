@@ -53,3 +53,30 @@
 #         print('Child Class')
 
 # x = final(name='AA',sal = 3000,comm=40,des= 'US')
+
+
+# Question 4:
+import datetime
+# Print that today’s date in mm/dd/yy format
+print(datetime.date.today().strftime('%m/%d/%y'))
+
+# A print small version of a day (based on today’s date)
+print(datetime.date.today().strftime('%a'))
+
+# Ask the user to enter a number and Print square root the number
+num = int(input("Enter a number: "))
+print('Square root -',num**0.5)
+
+# Ask the user to enter a number and Print power of the number (Power of 3)
+num = int(input("Enter a number: "))
+print('Power of 3 -',num**3)
+
+# Ask the user to enter a number Print exponential  of that number
+num = int(input("Enter a number: "))
+print('Exponential -',num**2.71828)
+
+base = int(input("Enter a base: "))
+exponent = int(input("Enter a exponent: "))
+print("Exponential Value is: ", base ** exponent)
+
+
